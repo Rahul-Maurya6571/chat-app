@@ -9,7 +9,7 @@ import closeIcon from "../../images/closeIcon.png";
 
 let socket;
 
-const ENDPOINT = "http://localhost:4000/";
+const ENDPOINT = "https://chat-app-backend-kewc.onrender.com/";
 
 const Chat = () => {
     const [id, setid] = useState("");
